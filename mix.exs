@@ -28,7 +28,8 @@ defmodule SampleStillSsg.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:still, "~> 0.6.1"}
+      {:still, "~> 0.6.1"},
+      {:neotoma, "~> 1.7.3", manager: :rebar3, override: true},
     ]
   end
 end
